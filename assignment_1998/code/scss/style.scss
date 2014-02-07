@@ -1,0 +1,65 @@
+body {
+	width: 100%;
+
+	font-family: "Comic Sans", "Comic Sans MS", cursive;
+
+	background: url("../img/americanflag.gif");
+}
+
+#content {
+	width: 800px;
+	margin: 10px auto;
+	background: black;
+}
+
+header {
+
+
+	h1 {
+		text-align: center;
+		color: lime;
+		font-size: 3.0rem;
+		margin: 10px 0;
+	}
+
+	p {
+		width: 300px;
+		margin: 0 auto;
+
+		img  {
+			width: 300px;
+		}
+	}
+}
+
+#intro {
+	text-align: center;
+
+	h2 {
+		color: red;
+		margin: 10px 0 0 0;
+	}
+
+	p {
+		color: yellow;
+	}
+}
+
+nav {
+	text-align: center;
+
+	ul {
+		list-style: none;
+	}
+
+	li {
+		font-size: 1.5rem;
+	}
+}
+
+#aboutme {
+	p {
+		text-align: center;
+		color: yellow;
+	}
+}
