@@ -13,6 +13,10 @@ header h1 {
   color: lime;
   font-size: 3.0rem;
   margin: 10px 0; }
+header h2 {
+  text-align: center;
+  font-size: 1.5rem;
+  color: red; }
 header p {
   width: 300px;
   margin: 0 auto; }
