@@ -41,3 +41,9 @@ nav {
 #aboutme p {
   text-align: center;
   color: yellow; }
+
+#pics p {
+  text-align: center;
+  color: red; }
+#pics img {
+  width: 100px; }

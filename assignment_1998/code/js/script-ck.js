@@ -1,0 +1,1 @@
+window.onload=function(){var e=document.getElementsByClassName("me");for(var t=0;t<e.length;t++){var n=e.item(t);n.addEventListener("click",function(e){var t=this.src,n=this.alt;window.open(t,"","width=400, height=300")})}};

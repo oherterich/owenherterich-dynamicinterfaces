@@ -10,12 +10,16 @@
 	<body>
 		<section id="content">
 			<header>
-				<h1>STUFF I LIKE</h1>
-				<h2>CHECK IT OUT!</h2>
+				<h1>PICS OF ME!</h1>
 			</header>
-			<article id="stuff">
+			<article id="pics">
+				<p>I'LL ADD MORE LATER HAHA</p>
 				<p>
-
+					<a href="#"><img class="me" src="img/me1.gif" alt="IDK WHAT I'M DOING HAHA!"></a>
+					<a href="#"><img class="me" src="img/me2.gif" alt="PLAYING DRUMS, SO FUN!"></a>
+					<a href="#"><img class="me" src="img/me3.gif" alt="ME AND MY FRIENDS"></a>
+					<a href="#"><img class="me" src="img/me4.gif" alt="SO THOUGHTFUL HAHA!!!"></a>
+					<a href="#"><img class="me" src="img/me5.gif" alt="LOOKING TOUGH"></a>
 				</p>
 			</article>
 			<?php
