@@ -118,16 +118,31 @@ footer {
 }
 
 form  {
-	width: 50%;
+	width: 75%;
 	margin: 0 auto;
 	color: white;
-	background: pink;
 }
 
 #guestbook {
-	table {
-		td {
-			width: 100%;
-		}
+	width: 75%;
+	margin: 10px auto;
+	margin-top: 50px;
+
+	h3 {
+		color: white;
+		margin: 0;
+	}
+
+	h4 {
+		margin: 0;
+		color: #777;
+	}
+
+	#name {
+		color: red;
+	}
+
+	#date {
+		color: blue;
 	}
 }
