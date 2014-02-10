@@ -38,6 +38,11 @@ header {
 	}
 }
 
+marquee {
+	font-size: 1.5rem;
+	color: red;
+}
+
 #intro {
 	text-align: center;
 
@@ -78,5 +83,51 @@ nav {
 
 	img {
 		width: 100px;
+	}
+}
+
+#diary {
+
+	img {
+		display: block;
+		margin: 0 auto;
+	}
+}
+
+#hitcounter {
+	padding: 5px 0;
+	background: #222;
+
+	p {
+		color: white;
+		text-align: center;
+		font-size: 0.6rem;
+	}
+}
+
+#num {
+	font-size: 1.2rem;
+	color: red;
+}
+
+footer {
+	color: #555;
+	font-size: 0.6rem;
+	text-align: center;
+	padding: 5px 0;
+}
+
+form  {
+	width: 50%;
+	margin: 0 auto;
+	color: white;
+	background: pink;
+}
+
+#guestbook {
+	table {
+		td {
+			width: 100%;
+		}
 	}
 }
