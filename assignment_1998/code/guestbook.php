@@ -13,7 +13,7 @@
 				<h1>MY GUESTBOOK</h1>
 			</header>
 			<article id="guestbook-form">
-				<form action="diary.php" method="post">
+				<form action="guestbook.php" method="post">
 					Name: <input type="text" name="name"> <br/>
 					Message: <br/><textarea rows="4" cols="50" name="message"></textarea><br/>
 					<input type="submit">
@@ -21,7 +21,7 @@
 			</article>
 			<article id="guestbook">
 			<?php
-				$mysql = mysql_connect('127.0.0.1', 'root', 'root');	
+				$mysql = mysql_connect('127.0.0.1', 'root', '************');	
 				mysql_select_db('ninetyeight', $mysql);
 				
 				if ( isset( $_POST['name'] ) && isset( $_POST['message'] ) ) {
