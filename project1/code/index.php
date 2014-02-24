@@ -19,28 +19,31 @@
 		<div id="content">
 			<section id="introduction" class="slide">
 				<img src="img/pair.png">
-				<h3>a revolutionary new way to find your better half.</h3>
+				<h3>A REVOLUTIONARY NEW WAY TO FIND YOUR BETTER HALF.</h3>
 			</section>
 			<section id="video" class="slide">
+				<h2>TAKE A LOOK INSIDE AND SEE HOW PAIR HELPS YOU DISCOVER YOUR SOULMATE.</h2>
 				<article>
-					<iframe src="http://player.vimeo.com/video/69070659" width="850" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+					<!--<iframe src="http://player.vimeo.com/video/69070659" width="850" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>-->
+					<img src="img/playbutton.png">
 				</article>
 			</section>
 			<section id="steps" class="slide">
+				<h2>GET STARTED IN THREE EASY STEPS.</h2>
 				<div id="step-container">
 					<article>
 						<img src="img/collect.png">
-						<h3>Collect</h3>
+						<h3>COLLECT</h3>
 						<p>Collect a small sample of saliva and send it to our experts for analysis.</p>
 					</article>
 					<article>
 						<img src="img/analyze.png">
-						<h3>Analyze</h3>
-						<p>Our state-of-the-art equipment will analyze your chromosomes and prepare the results in minutes.</p>
+						<h3>ANALYZE</h3>
+						<p>Our state-of-the-art equipment will analyze your chromosomes and prepare the results.</p>
 					</article>
 					<article>
 						<img src="img/connect.png">
-						<h3>Match</h3>
+						<h3>MATCH</h3>
 						<p>Complex mapping algorithms will interpret your data and find the perfect match.</p>
 					</article>
 				</div>
@@ -48,66 +51,19 @@
 			<section id="signup" class="slide">
 				<a name="signup"></a>
 
-
-				<?php
-					//Initialize variables
-					if (isset($_POST['first'])) {
-						$firstname = $_POST['first'];
-
-						if ($firstname == "") {
-							echo "<p>Please enter your first name.</p>";
-						}
-					}
-
-					if (isset($_POST['last'])) {
-						$lastname = $_POST['last'];
-
-						if ($lastname == "") {
-							echo "<p>Please enter your last name.</p>";
-						}
-					}
-
-					if (isset($_POST['email'])) {
-						$email = $_POST['email'];
-
-						if ($email == "") {
-							echo "<p>Please enter your email.</p>";
-						}
-					}
-
-					$userid = uniqid();
-
-					//Connect to MySQL
-					if ($firstname && $lastname && $email) {
-						$mysql = mysql_connect('127.0.0.1', 'root', 'root');
-						mysql_select_db('Pair', $mysql);
-
-						$sql = "INSERT INTO info (userid, firstname, lastname, email) VALUES ('$userid', '$firstname', '$lastname', '$email')";
-						mysql_query($sql);
-
-						//Send confirmation email
-						$subject = 'Welcome to Pair!';
-						$message = '<h3>Thanks for taking part!</h3>';
-						$message .= '<p>Get ready to experience a revolutionary new way to find your better half. By signing up, you will be the first to know when our first kits are available. Stay tuned!</p>';
-						$message .= "<p><3 Pair</p>";
-						$headers = "MIME-Version: 1.0\r\n";
-						$headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
-						mail($email, $subject, $message, $headers);
-
-						echo "<h3>Thanks for signing up! We'll be in touch.</p>";
-					}
-					else {
-						?>
-						<h3>Sign up to be the first to find your Pair</h3>
-					<form action="index.php#signup" method="post">
-						First Name: <input name="first" type="text">
-						Last Name: <input name="last" type="text">
-						Email: <input name="email" type="text">
-						<input type="submit">
-					</form>
-				<?php
-					}
+				<?php 
+					require_once("signup.php");
 				?>
+				<article id="nav">
+					<ul>
+						<li><a href="#">About Pair</a></li>
+						<li><a href="#">Why Pair?</a></li>
+						<li><a href="#">Careers</a></li>
+					</ul>
+				</article>
+				<footer>
+					<p>&copy;2014 PAIR INC. &nbsp; TERMS AND CONDITIONS OF SERVICE</p>
+				</footer>
 			</section>
 		</div>
 	</body>
