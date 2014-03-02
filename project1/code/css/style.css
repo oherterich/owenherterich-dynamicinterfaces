@@ -10,6 +10,10 @@
   font-family: 'Franklin Medium';
   src: url("fonts/Franklin-Medium.otf") format("opentype"); }
 
+@font-face {
+  font-family: 'Franklin Book';
+  src: url("fonts/Franklin-Book.otf") format("opentype"); }
+
 * {
   margin: 0;
   padding: 0; }
@@ -37,7 +41,8 @@ h2 {
   height: 100%; }
 
 #introduction {
-  background: url("../img/bg-slide1.png") no-repeat; }
+  background: url("../img/bg-slide1.png") no-repeat;
+  background-size: cover; }
   #introduction h1 {
     font-size: 10.0rem;
     color: #222;
@@ -58,7 +63,8 @@ h2 {
     padding-top: 19%; }
 
 #video {
-  background: url("../img/bg-slide2.png") no-repeat; }
+  background: url("../img/bg-slide2.png") no-repeat;
+  background-size: cover; }
   #video article {
     width: 850px;
     height: 480px;
@@ -75,7 +81,8 @@ h2 {
       opacity: 0.5; }
 
 #steps {
-  background: url("../img/bg-slide3.png") no-repeat; }
+  background: url("../img/bg-slide3.png") no-repeat;
+  background-size: cover; }
   #steps #step-container {
     width: 80%;
     height: 100%;
@@ -113,6 +120,7 @@ h2 {
 
 #signup {
   background: url("../img/bg-slide4.png") no-repeat;
+  background-size: cover;
   position: relative; }
   #signup h2 {
     line-height: 2.2rem; }
@@ -129,14 +137,14 @@ form {
   -webkit-box-shadow: 4px 4px 5px 0 rgba(200, 200, 200, 0.4);
   box-shadow: 4px 4px 5px 0 rgba(200, 200, 200, 0.4);
   width: 35%;
-  height: 25%;
+  height: 30%;
   margin: 4% auto;
   padding: 3% 4% 7% 3%; }
   form p {
     padding: 10px; }
   form input {
     width: 100%;
-    padding: 5px;
+    padding: 15px 10px 10px 8px;
     border-radius: 4px;
     outline-style: none;
     font-family: "Franklin Medium", Helvetica, Arial, sans-serif;
@@ -199,3 +207,20 @@ footer {
   font-family: "Franklin Medium", Helvetica, Arial, sans-serif;
   color: #666;
   font-size: 0.7rem; }
+
+#about {
+  background: url("../img/bg-about.png") repeat-y;
+  background-size: cover; }
+  #about h2 {
+    font-size: 2.0rem;
+    text-align: left;
+    width: 75%; }
+  #about p {
+    font-family: "Franklin Book", Helvetica, Arial, sans-serif;
+    font-size: 1.0rem;
+    width: 75%;
+    margin: 1% auto; }
+
+.meet {
+  width: 20%;
+  background: pink; }

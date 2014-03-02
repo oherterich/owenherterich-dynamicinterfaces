@@ -28,7 +28,7 @@
 
 	//Connect to MySQL
 	if ($firstname && $lastname && $email) {
-		$mysql = mysql_connect('127.0.0.1', 'root', 'root');
+		$mysql = mysql_connect('127.0.0.1', 'root', 'machine12');
 		mysql_select_db('Pair', $mysql);
 
 		$sql = "INSERT INTO info (userid, firstname, lastname, email) VALUES ('$userid', '$firstname', '$lastname', '$email')";

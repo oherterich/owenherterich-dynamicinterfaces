@@ -53,17 +53,9 @@
 
 				<?php 
 					require_once("signup.php");
+					require_once("nav.html");
+					require_once("footer.html");
 				?>
-				<article id="nav">
-					<ul>
-						<li><a href="#">About Pair</a></li>
-						<li><a href="#">Why Pair?</a></li>
-						<li><a href="#">Careers</a></li>
-					</ul>
-				</article>
-				<footer>
-					<p>&copy;2014 PAIR INC. &nbsp; TERMS AND CONDITIONS OF SERVICE</p>
-				</footer>
 			</section>
 		</div>
 	</body>
