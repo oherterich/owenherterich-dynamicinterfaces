@@ -33,7 +33,7 @@
 					<h3>1. Terms</h3>
 					<p>If you made it this far, you deserve to know the truth.</p>
 					<p>Pair is not a real company. This website and all content within was created by Owen Herterich and Angelica Jang as part of the Dynamic Interfaces class at Parsons The New School for Design in the spring of 2014. It's part satire, part experiment.</p>
-					<p>If you fill out the form on the main page, your email address and name was saved to a database. We will not use this information for any malicious purposes. It will just sit there, pretty as a peach.</p>
+					<p>If you fill out the form on the main page, your email address and name will be saved to a database. We will not use this information for any malicious purposes. It will just sit there, pretty as a peach.</p>
 					<p>The rest of this form is going to be randomly generated Lorem Ipsum. It's not like anyone reads these things anyway, right?</p>
 					<h3>Attribution</h3>
 					<p>Analytics by Christopher Holm-Hansen from The Noun Project</p>
