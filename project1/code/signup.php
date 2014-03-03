@@ -4,7 +4,7 @@
 		$firstname = $_POST['first'];
 
 		if ($firstname == "") {
-			echo "<p>Please enter your first name.</p>";
+			echo "<p class='error'>Please enter your first name.</p>";
 		}
 	}
 
@@ -12,7 +12,7 @@
 		$lastname = $_POST['last'];
 
 		if ($lastname == "") {
-			echo "<p>Please enter your last name.</p>";
+			echo "<p class='error'>Please enter your last name.</p>";
 		}
 	}
 
@@ -20,7 +20,7 @@
 		$email = $_POST['email'];
 
 		if ($email == "") {
-			echo "<p>Please enter your email.</p>";
+			echo "<p class='error'>Please enter your email.</p>";
 		}
 	}
 
@@ -29,6 +29,7 @@
 	//Connect to MySQL
 	if ($firstname && $lastname && $email) {
 		$mysql = mysql_connect('127.0.0.1', 'root', 'machine12');
+
 		mysql_select_db('Pair', $mysql);
 
 		$sql = "INSERT INTO info (userid, firstname, lastname, email) VALUES ('$userid', '$firstname', '$lastname', '$email')";
@@ -38,8 +39,8 @@
 		$subject = 'Welcome to Pair!';
 		$message = '<h3>Thanks for taking part!</h3>';
 		$message .= '<p>Get ready to experience a revolutionary new way to find your better half. By signing up, you will be the first to know when our first kits are available. Stay tuned!</p>';
-		$message .= "<p><3 Pair</p>";
-		$headers = "From: Pair" . "\r\n";
+		$message .= "<p> - Pair</p>";
+		$headers = "From: Hello" . "\r\n";
 		$headers .= "MIME-Version: 1.0\r\n";
 		$headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
 		mail($email, $subject, $message, $headers);

@@ -41,7 +41,7 @@ h2 {
   height: 100%; }
 
 #introduction {
-  background: url("../img/bg-slide1.png") no-repeat;
+  background: url("../img/bg-slide1.jpg") no-repeat;
   background-size: cover; }
   #introduction h1 {
     font-size: 10.0rem;
@@ -130,6 +130,10 @@ h2 {
     left: 36%;
     font-family: "Franklin Medium", Helvetica, Arial, sans-serif;
     font-weight: normal; }
+  #signup .error {
+    position: relative;
+    color: #ff0000;
+    text-align: center; }
 
 form {
   background: url("../img/transparent-white.png");

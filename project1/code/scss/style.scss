@@ -48,7 +48,7 @@ h2 {
 }
 
 #introduction {
-	background: url("../img/bg-slide1.png") no-repeat;
+	background: url("../img/bg-slide1.jpg") no-repeat;
 	background-size: cover;
 
 	h1 {
@@ -166,6 +166,12 @@ h2 {
 		left: 36%;
 		font-family: "Franklin Medium", Helvetica, Arial, sans-serif;
 		font-weight: normal;
+	}
+
+	.error {
+		position: relative;
+		color: #ff0000;
+		text-align: center;
 	}
 }
 
