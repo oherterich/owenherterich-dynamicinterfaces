@@ -40,8 +40,7 @@
 			<section id="video" class="slide">
 				<h2>TAKE A LOOK INSIDE AND SEE HOW PAIR HELPS YOU DISCOVER YOUR SOULMATE.</h2>
 				<article>
-					<!--<iframe src="http://player.vimeo.com/video/69070659" width="850" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>-->
-					<img src="img/playbutton.png">
+					<iframe src="//player.vimeo.com/video/88093713?title=0&amp;byline=0&amp;portrait=0&amp;color=ffffff" width="850" height="473" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 				</article>
 			</section>
 			<section id="steps" class="slide">

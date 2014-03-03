@@ -26,7 +26,7 @@ body, html {
   font-family: "Franklin Medium", Helvetica, Arial, sans-serif; }
 
 body {
-  background: url("../img/bg-about.png") repeat-y;
+  background: url("../img/bg-slide3.png") repeat-y;
   background-size: 100%; }
 
 h2 {
@@ -89,7 +89,8 @@ header {
       display: inline-block;
       padding: 2% 9%;
       font-family: "Franklin Book", Helvetica, Arial, sans-serif;
-      font-size: 1.3rem; }
+      font-size: 1.3rem;
+      font-weight: normal; }
       #nav ul li a {
         color: #7792b6;
         text-decoration: none;
@@ -123,7 +124,7 @@ footer a:hover {
 .meet {
   display: inline-table;
   width: 25%;
-  height: 55%;
+  height: 50%;
   margin: 2.2%;
   padding: 1.7%;
   background: url("../img/transparent-white.png");
@@ -153,7 +154,7 @@ footer a:hover {
   padding: 0; }
 
 .couple {
-  width: 250px;
+  width: 27%;
   height: 75%;
   display: inline-table;
   margin: 2% 1% 4% 1%;
@@ -174,12 +175,24 @@ footer a:hover {
     font-size: 0.8rem;
     margin-top: -4%; }
 
-#job-list h3 {
+#careers {
+  /*width: 60%;
+  margin: 0 auto;*/ }
+
+#job-list {
+  width: 75%;
   margin: 0 auto; }
-#job-list p {
-  margin: 0.3% auto; }
-#job-list .job {
-  margin: 1.5% 0; }
+  #job-list .job {
+    margin: 1.5% 1.5%;
+    width: 46%;
+    display: inline-table; }
+  #job-list h3 {
+    margin: 0 auto;
+    width: 100%; }
+  #job-list p {
+    margin: 0.3% auto;
+    width: 100%;
+    padding: 3%; }
 
 .contact {
   margin: 3% 0; }
