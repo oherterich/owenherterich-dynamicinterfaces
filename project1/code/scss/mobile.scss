@@ -1,0 +1,148 @@
+/****************************************************/
+/* Smartphones (portrait and landscape) ----------- */
+/****************************************************/
+
+@media screen and (min-width : 320px) and (max-width : 568px) {
+
+#video {
+	article {
+		width: 300px;
+		height: 170px;
+
+		img {
+			width: 30%;
+			top: 24%;
+			left: 34%;
+			height: auto;
+		}
+	}
+}
+
+#steps {
+
+	height: auto;
+
+	article {
+		position: relative;
+		margin: 10% auto;
+		width: 100%;
+		display: block;
+
+		img {
+			width: 200px;
+		}
+
+		h3 {
+			font-size: 1.3rem;
+			height: 9%;
+		}
+
+		p {
+			display: block;
+			width: 100%;
+			font-size: 1.0rem;
+		}
+	}
+}
+
+#signup {
+	height: auto;
+}
+
+form {
+	width: 80%;
+	height: 40%;
+	padding: 5%;
+}
+
+#submit {
+	width: 50%;
+	height: 20%;
+}
+
+#submit:active {
+	background-color: #6794cb;
+	color: #fff;
+	cursor: pointer;
+	transition: background-color 0.2s, color 0.2s;
+}
+
+#nav {
+	position: relative;
+	margin-top: 20%;
+	background-color: transparent;
+
+	ul {
+		width: 100%;
+		margin: 0 auto;
+		text-align: center;
+		background-color: transparent;
+
+		li {
+			display: block;
+			margin: 2% 0;
+			padding: 5% 9%;
+			font-size: 1.5rem;
+			background-color: #fff;
+		}
+	}
+}
+
+footer {
+	display: block;
+	position: relative;
+	bottom: 0%;
+	left: 0%;
+	width: 100%;
+	margin: 0 auto;
+	padding: 3% 0;
+
+	a:link, a:visited {
+		color: #666;
+		text-decoration: none;
+	}
+
+	a:hover {
+		color: #111;
+	}
+}
+
+#description {
+	width: 100%;
+	margin-bottom: 5%;
+
+	h2 {
+		font-size: 1.8rem;
+	}
+
+	p {
+		font-size: 1.0rem;
+	}
+}
+
+.meet {
+	display: block;
+	width: 100%;
+	height: 45%;
+	margin: 8% 0;
+}
+
+#testimonials {
+	width: 80%;
+}
+
+.couple {
+	display: block;
+	width: auto;
+	height: auto;
+	margin: 10% auto;
+	padding: 10%;
+}
+
+#job-list {
+	.job {
+		margin: 5% 0;
+	}
+}
+
+}

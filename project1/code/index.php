@@ -4,6 +4,8 @@
 		<title>Pair</title>
 
 		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="css/tablet.css">
+		<link rel="stylesheet" type="text/css" href="css/mobile.css">
 		<link rel="icon" type="image/png" href="img/icon.png">
 
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
@@ -11,15 +13,17 @@
   		<script type="text/JavaScript" src="js/jquery.snapscroll.min.js"></script>
     	<script>
     	$(function() {
+    		if (window.innerWidth > 568) {
 			  $("#content").snapscroll();
-			});
+			}
+		});
     	</script>
 	</head>
 	<body>
 		<div id="content">
 			<section id="introduction" class="slide">
-				<img src="img/pair.png">
-				<h3>A REVOLUTIONARY NEW WAY TO FIND YOUR BETTER HALF.</h3>
+				<img src="img/pair_animated.gif">
+				<h3>A REVOLUTIONARY NEW WAY <br/> TO FIND YOUR BETTER HALF.</h3>
 			</section>
 			<section id="video" class="slide">
 				<h2>TAKE A LOOK INSIDE AND SEE HOW PAIR HELPS YOU DISCOVER YOUR SOULMATE.</h2>

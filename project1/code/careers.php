@@ -3,6 +3,8 @@
 		<title>Pair</title>
 
 		<link rel="stylesheet" type="text/css" href="css/style-2.css">
+		<link rel="stylesheet" type="text/css" href="css/tablet.css">
+		<link rel="stylesheet" type="text/css" href="css/mobile.css">
 		<link rel="icon" type="image/png" href="img/icon.png">
 
 		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
@@ -40,7 +42,7 @@
 					</article>
 					<article class="contact">
 						<h3>Interested?</h3>
-						<p>If you think you'd be a great fit here at Pair, send us a note at jobs@pair.com</p>
+						<p>If you think you'd be a great fit here at Pair, send us a note at <a href="mailto:hello@getpaired.io">hello@getpaired.io</a></p>
 					</article>
 				</section>
 				<?php

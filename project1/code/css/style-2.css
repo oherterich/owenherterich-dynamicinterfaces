@@ -51,6 +51,16 @@ h3 {
   margin: 0 auto;
   font-weight: normal; }
 
+a:link, a:visited {
+  font-weight: bold;
+  color: #6681a5;
+  text-decoration: none;
+  transition: color 0.2s; }
+
+a:hover {
+  color: #5d728e;
+  transition: color 0.2s; }
+
 #content {
   position: relative; }
 
@@ -78,7 +88,7 @@ header {
     #nav ul li {
       display: inline-block;
       padding: 2% 9%;
-      font-family: "Franklin DemiCondensed", Helvetica, Arial, sans-serif;
+      font-family: "Franklin Book", Helvetica, Arial, sans-serif;
       font-size: 1.3rem; }
       #nav ul li a {
         color: #7792b6;
@@ -97,6 +107,11 @@ footer p {
   color: #666;
   font-size: 0.7rem;
   margin: 1% 0; }
+footer a:link, footer a:visited {
+  color: #666;
+  text-decoration: none; }
+footer a:hover {
+  color: #111; }
 
 #team {
   width: 75%;
