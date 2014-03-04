@@ -77,6 +77,8 @@ h2 {
       top: 30%;
       left: 39%;
       opacity: 0.5; }
+    #video article iframe {
+      width: 100%; }
 
 #steps {
   background: url("../img/bg-slide3.png") no-repeat;

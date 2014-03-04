@@ -10,6 +10,9 @@
       top: 24%;
       left: 34%;
       height: auto; }
+    #video article iframe {
+      width: 100%;
+      height: 100%; }
 
   #steps {
     height: auto; }
@@ -108,4 +111,6 @@
     padding: 10%; }
 
   #job-list .job {
-    margin: 5% 0; } }
+    margin: 1.5% 0%;
+    width: 100%;
+    display: block; } }
